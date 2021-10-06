@@ -1,8 +1,8 @@
-include "main.h"
+#include "main.h"
 /**
- * main - program that prints Holberton.
+ * main - Prints_putchar
  *
- * Return: int
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -17,3 +17,4 @@ int main(void)
         _putchar('\n');
         return (0);
 }
+
