@@ -1,20 +1,30 @@
-#include<studio.h>
+#include "main.h"
+
+/**
+  * _strncat - Concatenates two strings
+  * @dest: The destination value
+  * @src: The source value
+  * @n: The limit of the concatenation
+  *
+  * Return: A pointer to the resulting string dest
+  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char *p = dest;
-        char *p2 = src;
-        int c = 0;
+	int dlen = 0, j = 0;
 
-        while (*p != '\0')
-	p++;
-        while (*p2 != '\0')
-	c++, p2++
-        if(n > c)
-	n = c;
-        while (n > 0) && (*src != '\0')
+	while (dest[dlen])
 	{
-		      *ptr = *src++;
+		dlen++;
 	}
-        *p = '\a';
-        return (dest);
+
+	while (j < n && src[j])
+	{
+		dest[dlen] = src[j];
+		dlen++;
+		j++;
+	}
+
+	dest[dlen + n + 1] = '\0';
+
+	return (dest);
 }
