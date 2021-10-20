@@ -18,7 +18,7 @@ if (s[a] == accept[b])
 break;
 }
 if (accept[b])
-break;
-}
 return (s + a);
+}
+return (0);
 }
