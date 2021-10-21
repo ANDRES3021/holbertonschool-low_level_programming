@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  *_strstr - locates a substring
  *@haystack: string in which to check for needle
