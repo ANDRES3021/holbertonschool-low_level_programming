@@ -1,6 +1,7 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+
 /**
  *main - Prints the mulriplication of tow args numbers
  *@argc: argument count
