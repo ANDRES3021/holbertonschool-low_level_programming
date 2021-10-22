@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+/**
+ *main - Prints the mulriplication of tow args numbers
+ *@argc: argument count
+ *@argv: argument vector
+ *
+ *Return: Always zero
+ */
 int main(int argc, char __attribute__((unused)) *argv[])
 {
 	int nra, nrb = 0;
