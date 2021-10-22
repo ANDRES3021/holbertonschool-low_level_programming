@@ -1,0 +1,4 @@
+#ifndef MAIN_HEADER
+#define MAIN_HEADER
+int _putchar(char c);
+#endif /*MAIN_HEADER*/
