@@ -28,8 +28,8 @@ int main(int argc, char *argv[])
 	{
 		if (coins >= 25)
 		{
-			coins = coins - 25
-				}
+			coins = coins - 25;
+		}
 		else if (coins >= 10)
 		{
 			coins = coins - 10;
