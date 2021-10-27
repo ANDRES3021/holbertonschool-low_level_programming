@@ -4,19 +4,19 @@
 /**
   * create_array - creates an array of chars
   * @size: The size of the array
-  * @c: The char to fill in the array
+  * @j: The char to fill in the array
   *
   * Return: The array filled
   */
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *s;
+	char *j;
 
 	if (size == 0)
 		return (NULL);
 
-	s = malloc(size * sizeof(char));
+	j = malloc(size * sizeof(char));
 
 	if (s == NULL)
 		return (NULL);
@@ -25,7 +25,7 @@ char *create_array(unsigned int size, char c)
 	while (i < size)
 	{
 		i++;
-		s[i] = c;
+		j[i] = c;
 	}
 
 	return (s);
