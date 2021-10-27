@@ -21,10 +21,8 @@ char *create_array(unsigned int size, char c)
 	if (j == NULL)
 		return (NULL);
 
-	i = 0;
-	while (i < size)
+	for (i = 0; i < size; i++)
 	{
-		i++;
 		j[i] = c;
 	}
 
