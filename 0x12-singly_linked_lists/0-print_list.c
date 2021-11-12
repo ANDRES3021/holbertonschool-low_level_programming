@@ -16,8 +16,8 @@ size_t print_list(const list_t *h)
 		{
 			printf("[%d], %s\n", h->len, h->str);
 		}
+		countnodos++;
 		h = h->next;
-		countnodos++;	
 	}
 	return (countnodos);
 }
