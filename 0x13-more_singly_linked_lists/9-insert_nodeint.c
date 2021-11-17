@@ -8,8 +8,7 @@
   */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *temporal_node; 
-    listint_t *temp;
+	listint_t *temporal_node, *temp;
 	unsigned int iter;
 
 	temp = *head;
