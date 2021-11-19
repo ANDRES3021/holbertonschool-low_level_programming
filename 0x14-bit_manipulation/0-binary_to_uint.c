@@ -10,21 +10,19 @@ unsigned int binary_to_uint(const char *b)
 
 	if (b == NULL)
 	{
-		return(0);
+		return (0);
 	}
 
-	while(b[count] != '\0')
+	while (b[count] != '\0')
 	{
 		count++;
 	}
 	for (count = count - 1; count >= 0; count--)
 	{
 		if (b[count] != '0' && b[count] != '1')
-		{
-			return(0);
-		}    
+			return (0);
 		add = add + (b[count] - '0') * expo;
 		expo = expo * 2;
 	}
-	return(add);
+	return (add);
 }
