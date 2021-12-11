@@ -2,8 +2,13 @@
 [![c](https://i.blogs.es/21f7ba/c-lenguaje/1366_2000.jpg "c")](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.xataka.com%2Faplicaciones%2Fvenerable-lenguaje-programacion-c-cumple-48-anos-dandole-repaso-al-cada-vez-popular-python&psig=AOvVaw1JkIdpkzcUH7O6rb0Axdag&ust=1639282286534000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCNiTxMXw2vQCFQAAAAAdAAAAABAD "c")
 
 ------------
+
+
 # Hello World
+
 ------------
+
+
 ### 0-preprocessor: 
 
 Script that runs a C file through the preprocessor and save the result into another file. - The C file name will be saved in the variable $CFILE -The output should be saved in the file c
@@ -28,7 +33,15 @@ Have at least one picture, at the top of the blog post
 Publish your blog post on Medium or LinkedIn
 Share your blog post at least on LinkedIn
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
+
+------------
+
+
 [![steps of compilation](https://image.slidesharecdn.com/1ccsbcintroduction2-151019134846-lva1-app6891/95/compiler-construction-introduction-13-638.jpg?cb=1445262664 "steps of compilation")](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.slideshare.net%2FAhtshamRanaMib%2Fcompiler-construction-introduction-54118819&psig=AOvVaw2HYKVbSeS1ZhvGGcONx6ve&ust=1639282062273000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCODfxt_v2vQCFQAAAAAdAAAAABAJ "steps of compilation")
+
+------------
+
+
 ### 100-intel: 
 Script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 The C file name will be saved in the variable $CFILE.
